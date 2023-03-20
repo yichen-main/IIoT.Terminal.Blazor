@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<RootNamespace>IIoT.HMI</RootNamespace>
+		<UserSecretsId>3b1c6b00-f93a-4570-b9a0-9e9781664e01</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove=".gitignore" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.4" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.4" PrivateAssets="all" />
+		<PackageReference Include="MudBlazor" Version="6.2.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="MudBlazor" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Microsoft.AspNetCore.Components.Web" />
+		<Using Include="Microsoft.AspNetCore.Components.WebAssembly.Hosting" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="IIoT.HMI" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EditorConfigFiles Remove="C:\01.Workspaces\IIoT.Terminal.Application\src\.editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EditorConfigFiles Remove="C:\01.Workspaces\IIoT.Terminal.Application\src\.editorconfig" />
+	</ItemGroup>
+
+</Project>
